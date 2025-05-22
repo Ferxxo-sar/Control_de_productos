@@ -10,8 +10,7 @@ El sistema almacena los productos en un arreglo ordenado por número de ítem y 
 - **Modificar productos**: Permite editar campos individuales de un producto existente. (En caso de moficar el `nroItem` reordena el vector).
 - **Buscar productos**: Permite buscar un producto por su número de ítem y visualizar sus datos.
 
-El objetivo de este proyecto fue desarrollar un sistema escalable, aplicando buenas practicas y trabajando conceptos fundamentales como la modularizacion, 
-el manejo de punteros y algoritmos de ordenamiento y busqueda.
+El objetivo de este proyecto fue desarrollar un sistema escalable, aplicando buenas prácticas y trabajando con conceptos fundamentales como la modularización, el manejo de punteros, y los algoritmos de ordenamiento y búsqueda
 
 ## 🛠️ Estructura del producto
 
