@@ -1,13 +1,3 @@
-                        /*Un comercio mantiene su inventario en un arreglo de hasta 10000 productos,
-                        con la estructura:
-                        nroItem, producto, marca, tipo, costo, stockMin, stockActual.
-                        Implementar un sistema que permita:
-                        - Insertar nuevos productos (manteniendo el arreglo ordenado por ‘nroItem’).
-                        - Borrar productos por código.
-                        - Modificar productos.
-                        - Buscar un producto por número de ítem.*/
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -79,7 +69,7 @@ void imprimirProducto(Producto p) {
            p.nroItem, p.producto, p.marca, p.tipo, p.costo, p.stockActual, p.stockMin);
 }
 
-Producto leerProducto(){                                                                    //Modificar este proceso, crear el proceso limpiarBuffer();
+Producto leerProducto(){                                                                    
     Producto p;
 
     printf("Ingrese el numero de Item: "); scanf("%d", &p.nroItem); getchar();
