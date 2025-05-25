@@ -1,14 +1,16 @@
 # Sistema de Gestión de Inventario en C
 
-Este proyecto es un sistema de gestión de inventario desarrollado en el lenguaje C, diseñado para ayudar a un comercio a administrar hasta **1.000 productos escalable **. 
-El sistema almacena los productos en un arreglo ordenado por número de ítem y permite operaciones fundamentales sobre el inventario.
+Este proyecto es un sistema de gestión de inventario desarrollado en el lenguaje C, diseñado para ayudar a un comercio a administrar en este caso hasta 10000 productos. 
+El sistema se diseño de forma que sea escalable, es decir, si ahora se requiere que sea para 1.000.000 de productos, con solo modificar el tamaño del vector seria suficiente.
+A su vez almacena a todos productos en un arreglo ordenado por número de ítem y permite operaciones fundamentales sobre el inventario.
 
 ## 🧩 Funcionalidades
 
 - **Insertar productos**: Añade nuevos productos al inventario manteniendo el arreglo ordenado por `nroItem`.
 - **Eliminar productos**: Borra productos del inventario buscando por su número de ítem.
-- **Modificar productos**: Permite editar campos individuales de un producto existente. (En caso de moficar el `nroItem` reordena el vector).
-- **Buscar productos**: Permite buscar un producto por su número de ítem y visualizar sus datos.
+- **Modificar productos**: Busca el producto seleccionado mediante e numero de item, luego requiere que se seleccione el campo que se desea modificar, puede ser cualquiera de
+  los definidos en el struct pero en caso de moficar el `nroItem` se reordena el vector para mantenerlo ordenado.
+- **Buscar productos**: Busca un producto por su número de ítem y muestra sus campos en pantalla.
 
 El objetivo de este proyecto fue desarrollar un sistema escalable, aplicando buenas prácticas y trabajando con conceptos fundamentales como la modularización, el manejo de punteros, y los algoritmos de ordenamiento y búsqueda
 
