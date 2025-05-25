@@ -8,7 +8,7 @@ A su vez almacena a todos productos en un arreglo ordenado por número de ítem 
 
 - **Insertar productos**: Añade nuevos productos al inventario manteniendo el arreglo ordenado por `nroItem`.
 - **Eliminar productos**: Borra productos del inventario buscando por su número de ítem.
-- **Modificar productos**: Busca el producto seleccionado mediante e numero de item, luego requiere que se seleccione el campo que se desea modificar, puede ser cualquiera de
+- **Modificar productos**: Busca el producto seleccionado mediante el numero de item ingresado, luego requiere que se seleccione el campo que se desea modificar, puede ser cualquiera de
   los definidos en el struct pero en caso de moficar el `nroItem` se reordena el vector para mantenerlo ordenado.
 - **Buscar productos**: Busca un producto por su número de ítem y muestra sus campos en pantalla.
 
