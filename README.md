@@ -1,4 +1,4 @@
-# Sistema de Gestión de Inventario en C
+# Sistema de Gestión de Productos/Inventario en C
 
 Este proyecto es un sistema de gestión de inventario desarrollado en el lenguaje C, diseñado para ayudar a un comercio a administrar en este caso hasta 10000 productos. 
 El sistema se diseño de forma que sea escalable, es decir, si ahora se requiere que sea para 1.000.000 de productos, con solo modificar el tamaño del vector seria suficiente.
